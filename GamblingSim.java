@@ -80,5 +80,14 @@ System.out.println("");//SPACE
 System.out.println(" You Lose =" +REDUCE+ "$ at this Day");
 System.out.println("For you Unluckyday was -> DAY "+UNLUCKYDAY);
    }
+public void StopORContinue() {
+int Continue =1;
+do {   /*Player can Continue if Player wins or stop Gambling on Player's Choice*/
+System.out.println("At " +Continue+ " month they are Continuing to play the Game");
+Monthstatus();
+Continue++;  //If continues
+}while (PLUS>0);
 
  }
+
+}
